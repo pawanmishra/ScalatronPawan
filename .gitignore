@@ -1,2 +1,19 @@
 *.class
 *.log
+ScalaMarkdown/target/streams/test/compileIncSetup/
+Scalatron/samples/Example Bot 01 - Reference/target/streams/test/compileIncSetup/
+Scalatron/samples/Example Bot 02 - TagTeam/target/streams/test/compileIncSetup/
+Scalatron/target/scala-2.12/classes/
+Scalatron/target/streams/$global/assemblyOption/
+Scalatron/target/streams/compile/compileIncSetup/
+ScalatronCLI/target/streams/test/compileIncSetup/
+project/target/streams/compile/compileIncSetup/
+target/streams/$global/assemblyOption/$global/streams/assembly/94fb80d31aa7e5ae693f34c6f5337eefa0ef07f3_dir/
+target/streams/compile/compileIncSetup/
+target/streams/test/compileIncSetup/
+/ScalatronCore/target/
+/ScalatronCLI/target/
+/Scalatron/target/
+/ScalaMarkdown/target/
+/BotWar/target/
+/target/
