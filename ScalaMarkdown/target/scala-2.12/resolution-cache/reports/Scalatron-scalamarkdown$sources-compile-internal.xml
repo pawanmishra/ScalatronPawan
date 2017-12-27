@@ -7,10 +7,10 @@
 		revision="1.1.0.2"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20171227002838"/>
+		date="20171227145704"/>
 	<dependencies>
 		<module organisation="commons-io" name="commons-io">
-			<revision name="2.3" status="release" pubdate="20120410101245" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+			<revision name="2.3" status="release" pubdate="20120410101245" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
 				<metadata-artifact status="no" details="" size="8141" time="0" location="/Users/mishrapaw/.ivy2/cache/commons-io/commons-io/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.3/commons-io-2.3.pom"/>
 				<caller organisation="Scalatron" name="scalamarkdown$sources" conf="compile-internal, compile, provided, optional" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="1.1.0.2"/>
 				<artifacts>
@@ -21,25 +21,13 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.12.2" status="release" pubdate="20170413031911" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="2">
+			<revision name="2.12.2" status="release" pubdate="20170413031911" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/mishrapaw/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.pom"/>
 				<caller organisation="Scalatron" name="scalamarkdown$sources" conf="compile-internal, compile, provided, optional" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="1.1.0.2" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/"/>
 				<artifacts>
 					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="990185" time="0" location="/Users/mishrapaw/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.scala-tools.testing" name="specs_2.10">
-			<revision name="1.6.9" status="release" pubdate="20121220172952" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/specs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
-				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="no" details="" size="4564" time="0" location="/Users/mishrapaw/.ivy2/cache/org.scala-tools.testing/specs_2.10/ivy-1.6.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-tools/testing/specs_2.10/1.6.9/specs_2.10-1.6.9.pom"/>
-				<caller organisation="Scalatron" name="scalamarkdown$sources" conf="compile-internal, compile, provided, optional" rev="1.6.9" rev-constraint-default="1.6.9" rev-constraint-dynamic="1.6.9" callerrev="1.1.0.2"/>
-				<artifacts>
-					<artifact name="specs_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="352186" time="0" location="/Users/mishrapaw/.ivy2/cache/org.scala-tools.testing/specs_2.10/srcs/specs_2.10-1.6.9-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-tools/testing/specs_2.10/1.6.9/specs_2.10-1.6.9-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

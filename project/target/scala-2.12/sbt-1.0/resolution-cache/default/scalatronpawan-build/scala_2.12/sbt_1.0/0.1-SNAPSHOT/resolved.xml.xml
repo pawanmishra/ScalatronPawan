@@ -4,7 +4,7 @@
 		module="scalatronpawan-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171227002919"
+		publication="20171227150654"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

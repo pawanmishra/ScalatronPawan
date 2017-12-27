@@ -1,8 +1,8 @@
-[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-logging-1.2.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-codec-1.10.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-parser-combinators_2.12-1.0.6.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: httpclient-4.5.4.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding from cache: httpcore-4.4.7.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-logging-1.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: httpclient-4.5.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-codec-1.10.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-library-2.12.2.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mCalculate mappings...[0m
 [0m[[0m[0minfo[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m

@@ -3,11 +3,13 @@ import sbt._
 import Keys._
 import sbtassembly.AssemblyPlugin.autoImport._
 
+scalacOptions += "-Ylog-classpath"
+
 def standardSettings = src ++ Seq (
     organization := "Scalatron",
     //name         := "Scalatron",
     version in Global := "1.1.0.2",
-    scalaVersion := "2.12.2",
+    scalaVersion := "2.12",
     assemblyMergeStrategy in assembly := {
       case "plugin.properties" => MergeStrategy.first
       case "about.html" => MergeStrategy.first
@@ -62,6 +64,7 @@ lazy val main = Project("Scalatron", file("Scalatron"))
     .settings(Seq(
     libraryDependencies ++= Seq(
       "org.scala-lang" % "scala-compiler" % "2.12.2",
+      "org.scala-lang" % "scala-library" % scalaVersion.value,
       "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.6",
       "com.typesafe.akka" %% "akka-actor" % "2.5.8",
       "org.eclipse.jetty.aggregate" % "jetty-webapp" % "7.6.2.v20120308" intransitive,
@@ -72,9 +75,9 @@ lazy val main = Project("Scalatron", file("Scalatron"))
       "org.eclipse.jgit" % "org.eclipse.jgit.http.server" % "1.3.0.201202151440-r",
       "org.scalatest" %% "scalatest" % "3.0.4" % "test",
       "org.testng" % "testng" % "6.5.1" % "test",
-      "org.specs2" % "specs2_2.9.1" % "1.9" % "test",
-      "org.specs2" % "specs2-scalaz-core_2.9.1" % "6.0.1"
-      //"org.specs2" % "specs2_2.10" % "3.3.1" % "test",
+      //"org.specs2" % "specs2_2.9.1" % "1.9" % "test",
+      //"org.specs2" % "specs2-scalaz-core_2.9.1" % "6.0.1"
+      //"org.specs2" % "specs2_2.11" % "3.7" % Test pomOnly(),
       //"org.specs2" % "specs2-scalaz-core_2.10" % "7.0.0"
     ),
     resolvers += "JGit Repository" at "http://download.eclipse.org/jgit/maven"
@@ -105,9 +108,10 @@ lazy val markdown = Project("ScalaMarkdown", file("ScalaMarkdown"))
     resourceDirectory in Test := (baseDirectory.value / "test/resources")
   ) ++ Seq(
     libraryDependencies ++= Seq(
-      "org.scala-tools.testing" % "specs_2.10" % "1.6.9",
+      //"org.scala-tools.testing" % "specs_2.10" % "1.6.9" % Test,
       "commons-io" % "commons-io" % "2.3",
-      "org.apache.commons" % "commons-lang3" % "3.1"
+      "org.apache.commons" % "commons-lang3" % "3.1",
+      "org.scala-lang" % "scala-library" % scalaVersion.value
     )
   ) ++ Seq (
     assemblyJarName in assembly := "ScalaMarkdown.jar"
@@ -116,7 +120,7 @@ lazy val markdown = Project("ScalaMarkdown", file("ScalaMarkdown"))
 
 lazy val samples = (IO.listFiles(file("Scalatron") / "samples")) filter (!_.isFile) map {
   sample: File => sample.getName -> Project(sample.getName.replaceAll(" ", ""), sample).settings(Seq(
-    scalaSource in Compile := (baseDirectory.value / "src"),
+    scalaSource in Compile := baseDirectory.value / "src",
     artifactName in packageBin := ((_, _, _) => "ScalatronBot.jar")
   ))
 } toMap
@@ -151,7 +155,7 @@ lazy val zipTask: Def.Initialize[Task[Unit]] = Def.task {
   }
 
   val distSamples = distDir / "samples"
-  def sampleJar(sample: Project) = sample.base / ("target/scala-%s/ScalatronBot.jar" format scalaVersion)
+  def sampleJar(sample: Project) = sample.base / ("target/scala-%s/ScalatronBot.jar" format scalaVersion.value)
   for (sample <- samples.values) {
     if (sampleJar(sample).exists) {
       println("Copying " + sample.base)
@@ -178,25 +182,24 @@ lazy val zipTask: Def.Initialize[Task[Unit]] = Def.task {
 
 
   for (jar <- List("Scalatron", "ScalatronCLI", "ScalatronCore", "BotWar")) {
-    IO.copyFile(file(jar) / "target" / (jar + ".jar"), distDir / "bin" / (jar + ".jar"))
+    IO.copyFile(file(jar) / "target" / s"scala-${scalaVersion.value}" / (jar + ".jar"), distDir / "bin" / (jar + ".jar"))
   }
 
   // This is ridiculous, there has to be be an easier way to zip up a directory
-  val zipFileName = "scalatron-%s.zip" format version
+  val zipFileName = "scalatron-%s.zip" format version.value
   println ("Zipping up /dist into " + zipFileName + "...")
   def zip(srcDir: File, destFile: File, prepend: String) = {
     val allDistFiles = (srcDir ** "*").get.filter(_.isFile).map { f => (f, prepend + IO.relativize(distDir, f).get)}
     IO.zip(allDistFiles, destFile)
   }
   zip (distDir, file("./" + zipFileName), "Scalatron/")
-}
-
-val dist = TaskKey[Unit]("dist", "Makes the distribution zip file")
-val distTask = dist := zipTask dependsOn (
-  assembly in core,
+} dependsOn (assembly in core,
   assembly in botwar,
   assembly in main,
   assembly in cli,
   assembly in markdown,
   packageBin in Compile in referenceBot,
   packageBin in Compile in tagTeamBot)
+
+val dist = TaskKey[Unit]("dist", "Makes the distribution zip file")
+val distTask = dist := zipTask.value

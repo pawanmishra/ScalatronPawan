@@ -4,14 +4,19 @@
 package scalatron.scalatron.impl
 
 import java.io._
+
 import akka.actor._
+
 import scalatron.core.Scalatron.Constants._
 import scalatron.Version
 import java.text.DateFormat
 import java.util.Date
+
 import scalatron.core.Scalatron.{ScalatronException, SourceFile, User}
 import java.net.URLDecoder
-import akka.routing.{SmallestMailboxRoutingLogic, ActorRefRoutee, Router, Routee}
+
+import akka.routing._
+
 import scalatron.scalatron.api.ScalatronOutward
 import scalatron.core.Simulation.UntypedState
 import scalatron.core._
@@ -272,16 +277,16 @@ case class ScalatronImpl(
 
     def start() {
         val compileWorkerCount = 3
-        val routees = scala.collection.immutable.IndexedSeq.tabulate[Routee](compileWorkerCount)(n => {
-            val r = actorSystem.actorOf(Props(new CompileActor(verbose)))
-            actorSystem.watch(r)
-            ActorRefRoutee(r)
-        })
+//        val actorRoutees = scala.collection.immutable.IndexedSeq.tabulate[ActorRef](compileWorkerCount)(n => {
+//            val r = actorSystem.actorOf(Props(new CompileActor(verbose)))
+//            r
+//        })
 
         // using a SmallestMailboxRoutingLogic has the advantage of only ever loading (and bloating) a single compile actor
         // instance when a single user (or a small number of users) is working on the system.
-        val router = Router(SmallestMailboxRoutingLogic(), routees) // RoundRobinRouter(routees)
-        val compileWorkerRouter = actorSystem.actorOf(Props(new CompileActor(verbose)).withRouter(router), name = "workerRouter")
+        //val router = Router(SmallestMailboxRoutingLogic(), routees) // RoundRobinRouter(routees)
+        val compileWorkerRouter = actorSystem.actorOf(Props(new CompileActor(verbose))
+          .withRouter(SmallestMailboxPool(nrOfInstances = compileWorkerCount)), name = "workerRouter")
         compileWorkerRouterOpt = Some(compileWorkerRouter)
     }
 

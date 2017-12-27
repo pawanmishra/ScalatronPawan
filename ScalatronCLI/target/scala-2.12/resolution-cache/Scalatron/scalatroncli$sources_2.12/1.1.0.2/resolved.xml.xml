@@ -4,7 +4,7 @@
 		module="scalatroncli$sources_2.12"
 		revision="1.1.0.2"
 		status="integration"
-		publication="20171227002835"
+		publication="20171227150410"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

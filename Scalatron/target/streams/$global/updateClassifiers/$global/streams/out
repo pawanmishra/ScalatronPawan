@@ -239,21 +239,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.specs2#specs2-scalaz-core_2.9.1;6.0.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.specs2#specs2-scalaz-core_2.9.1;6.0.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.specs2#specs2-scalaz-core_2.9.1;6.0.1 in sbt-chain[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.codehaus.jackson#jackson-mapper-asl;1.9.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.codehaus.jackson#jackson-mapper-asl;1.9.2[0m
@@ -459,18 +444,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->compile][0m
@@ -667,18 +640,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [runtime->compile][0m
@@ -883,22 +844,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->compile][0m
@@ -1095,18 +1040,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [runtime->compile][0m
@@ -1137,21 +1070,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.sun.jersey#jersey-bundle;1.12 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->Scalatron#botwar_2.12;1.1.0.2 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->Scalatron#botwar_2.12;1.1.0.2 [test->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->default][0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.specs2#specs2_2.9.1;1.9 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.specs2#specs2_2.9.1;1.9[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.specs2#specs2_2.9.1;1.9 in sbt-chain[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->javax.ws.rs#jsr311-api;1.1.1 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->javax.ws.rs#jsr311-api;1.1.1 [test->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->javax.ws.rs#jsr311-api;1.1.1 [test->compile][0m
@@ -1385,22 +1303,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [test->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->runtime(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->master(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [test->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [test->compile][0m
@@ -1626,18 +1528,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->compile][0m
@@ -1836,18 +1726,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile-internal->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile-internal->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile-internal->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile-internal->compile][0m
@@ -2048,18 +1926,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->compile][0m
@@ -2256,18 +2122,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [runtime->compile][0m
@@ -2465,18 +2319,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [runtime-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [runtime-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [runtime-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime-internal->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime-internal->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [runtime-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [runtime-internal->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [runtime-internal->compile][0m
@@ -2678,18 +2520,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [compile->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [compile->compile][0m
@@ -2886,18 +2716,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [runtime->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [runtime->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [runtime->compile][0m
@@ -2928,18 +2746,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.sun.jersey#jersey-bundle;1.12 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->Scalatron#botwar_2.12;1.1.0.2 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->Scalatron#botwar_2.12;1.1.0.2 [test->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->javax.ws.rs#jsr311-api;1.1.1 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->javax.ws.rs#jsr311-api;1.1.1 [test->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->javax.ws.rs#jsr311-api;1.1.1 [test->compile][0m
@@ -3158,22 +2964,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [test->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->runtime(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->master(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [test->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [test->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [test->compile][0m
@@ -3222,18 +3012,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.sun.jersey#jersey-bundle;1.12 [test-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->Scalatron#botwar_2.12;1.1.0.2 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->Scalatron#botwar_2.12;1.1.0.2 [test-internal->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test-internal->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test-internal->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2_2.9.1;1.9 [test-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->javax.ws.rs#jsr311-api;1.1.1 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->javax.ws.rs#jsr311-api;1.1.1 [test-internal->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->javax.ws.rs#jsr311-api;1.1.1 [test-internal->compile][0m
@@ -3452,22 +3230,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [test-internal->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->com.jcraft#jsch;0.1.44-1 [test-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->default][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->runtime(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->master(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->default(compile)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->runtime][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->master][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.specs2#specs2-scalaz-core_2.9.1;6.0.1 [test-internal->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [test-internal->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [test-internal->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->org.codehaus.jackson#jackson-mapper-asl;1.9.2 [test-internal->compile][0m
@@ -3555,35 +3317,33 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies Scalatron#scalatron$sources;1.1.0.2->jline#jline;2.14.3 [scala-tool->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] junit#junit;4.10!junit.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty.aggregate#jetty-webapp;7.6.2.v20120308!jetty-webapp.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.sun.jersey#jersey-bundle;1.12!jersey-bundle.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.2!scala-reflect.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.2!jackson-core-asl.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jgit#org.eclipse.jgit.http.server;1.3.0.201202151440-r!org.eclipse.jgit.http.server.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.sun.jersey#jersey-bundle;1.12!jersey-bundle.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.ws.rs#jsr311-api;1.1.1!jsr311-api.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.testng#testng;6.5.1!testng.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.8!akka-actor_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jgit#org.eclipse.jgit;1.3.0.201202151440-r!org.eclipse.jgit.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.yaml#snakeyaml;1.6!snakeyaml.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.2!scala-library.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.jcraft#jsch;0.1.44-1!jsch.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.servlet#servlet-api;2.5!servlet-api.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jetty.aggregate#jetty-webapp;7.6.2.v20120308!jetty-webapp.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.eclipse.jgit#org.eclipse.jgit;1.3.0.201202151440-r!org.eclipse.jgit.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.8!akka-actor_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.2!jackson-mapper-asl.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.4!scalactic_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.ws.rs#jsr311-api;1.1.1!jsr311-api.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] junit#junit;4.10!junit.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.2!scala-compiler.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.testng#testng;6.5.1!testng.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.2!scala-library.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] javax.servlet#servlet-api;2.5!servlet-api.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.yaml#snakeyaml;1.6!snakeyaml.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.codehaus.jackson#jackson-jaxrs;1.9.2!jackson-jaxrs.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.beust#jcommander;1.12!jcommander.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.specs2#specs2-scalaz-core_2.9.1;6.0.1!specs2-scalaz-core_2.9.1.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.2!scala-compiler.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.3!jline.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.2!jackson-mapper-asl.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.specs2#specs2_2.9.1;1.9!specs2_2.9.1.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 166ms :: artifacts dl 9ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 1726ms :: artifacts dl 3ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for Scalatron#scalatron$sources;1.1.0.2 compile produced in /Users/mishrapaw/ScalatronPawan/Scalatron/target/scala-2.12/resolution-cache/reports/Scalatron-scalatron$sources-compile.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for Scalatron#scalatron$sources;1.1.0.2 runtime produced in /Users/mishrapaw/ScalatronPawan/Scalatron/target/scala-2.12/resolution-cache/reports/Scalatron-scalatron$sources-runtime.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for Scalatron#scalatron$sources;1.1.0.2 test produced in /Users/mishrapaw/ScalatronPawan/Scalatron/target/scala-2.12/resolution-cache/reports/Scalatron-scalatron$sources-test.xml[0m
@@ -3595,4 +3355,4 @@
 [0m[[0m[0mdebug[0m] [0m[0m	report for Scalatron#scalatron$sources;1.1.0.2 plugin produced in /Users/mishrapaw/ScalatronPawan/Scalatron/target/scala-2.12/resolution-cache/reports/Scalatron-scalatron$sources-plugin.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for Scalatron#scalatron$sources;1.1.0.2 pom produced in /Users/mishrapaw/ScalatronPawan/Scalatron/target/scala-2.12/resolution-cache/reports/Scalatron-scalatron$sources-pom.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for Scalatron#scalatron$sources;1.1.0.2 scala-tool produced in /Users/mishrapaw/ScalatronPawan/Scalatron/target/scala-2.12/resolution-cache/reports/Scalatron-scalatron$sources-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (166ms resolve - 9ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (1726ms resolve - 3ms download)[0m

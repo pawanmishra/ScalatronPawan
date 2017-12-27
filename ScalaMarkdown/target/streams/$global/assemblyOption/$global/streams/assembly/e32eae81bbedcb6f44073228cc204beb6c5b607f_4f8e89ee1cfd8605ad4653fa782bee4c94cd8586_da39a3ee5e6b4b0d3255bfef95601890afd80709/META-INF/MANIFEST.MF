@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Vendor: org.scala-tools.testing
-Implementation-Title: specs
-Implementation-Version: 1.6.9
-Implementation-Vendor-Id: org.scala-tools.testing
-Specification-Vendor: org.scala-tools.testing
-Specification-Title: specs
-Specification-Version: 1.6.9
-

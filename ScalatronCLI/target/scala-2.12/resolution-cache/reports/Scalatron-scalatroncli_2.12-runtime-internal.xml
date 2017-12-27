@@ -7,7 +7,7 @@
 		revision="1.1.0.2"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20171227002007"/>
+		date="20171227103741"/>
 	<dependencies>
 		<module organisation="org.apache.httpcomponents" name="httpclient">
 			<revision name="4.5.4" status="release" pubdate="20171127034224" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">

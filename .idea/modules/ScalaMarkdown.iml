@@ -22,8 +22,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: commons-io:commons-io:2.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-tools.testing:specs_2.10:1.6.9:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.commons:commons-lang3:3.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.2:jar" level="project" />
   </component>
 </module>

@@ -7,22 +7,10 @@
 		revision="1.1.0.2"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20171227002009"/>
+		date="20171227103743"/>
 	<dependencies>
-		<module organisation="org.specs2" name="specs2_2.9.1">
-			<revision name="1.9" status="release" pubdate="20120407164503" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://specs2.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
-				<license name="MIT-style" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="no" details="" size="3739" time="0" location="/Users/mishrapaw/.ivy2/cache/org.specs2/specs2_2.9.1/ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2_2.9.1/1.9/specs2_2.9.1-1.9.pom"/>
-				<caller organisation="Scalatron" name="scalatron_2.12" conf="test, compile, runtime" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.1.0.2"/>
-				<artifacts>
-					<artifact name="specs2_2.9.1" type="jar" ext="jar" status="no" details="" size="5085869" time="0" location="/Users/mishrapaw/.ivy2/cache/org.specs2/specs2_2.9.1/jars/specs2_2.9.1-1.9.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2_2.9.1/1.9/specs2_2.9.1-1.9.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="org.testng" name="testng">
-			<revision name="6.5.1" status="release" pubdate="20120406201804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://testng.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+			<revision name="6.5.1" status="release" pubdate="20120406201804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://testng.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
 				<license name="Apache License, Version 2.0" url="http://apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3842" time="0" location="/Users/mishrapaw/.ivy2/cache/org.testng/testng/ivy-6.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/testng/testng/6.5.1/testng-6.5.1.pom"/>
 				<caller organisation="Scalatron" name="scalatron_2.12" conf="test, compile, runtime" rev="6.5.1" rev-constraint-default="6.5.1" rev-constraint-dynamic="6.5.1" callerrev="1.1.0.2"/>
@@ -34,7 +22,7 @@
 			</revision>
 		</module>
 		<module organisation="org.yaml" name="snakeyaml">
-			<revision name="1.6" status="release" pubdate="20100308063443" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/snakeyaml/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+			<revision name="1.6" status="release" pubdate="20100308063443" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/snakeyaml/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
 				<license name="Apache License Version 2.0" url="LICENSE.txt"/>
 				<metadata-artifact status="no" details="" size="3403" time="0" location="/Users/mishrapaw/.ivy2/cache/org.yaml/snakeyaml/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.6/snakeyaml-1.6.pom"/>
 				<caller organisation="org.testng" name="testng" conf="default, compile, runtime, master" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="6.5.1"/>
@@ -46,7 +34,7 @@
 			</revision>
 		</module>
 		<module organisation="com.beust" name="jcommander">
-			<revision name="1.12" status="release" pubdate="20101215115411" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://beust.com/jcommander" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+			<revision name="1.12" status="release" pubdate="20101215115411" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://beust.com/jcommander" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3225" time="0" location="/Users/mishrapaw/.ivy2/cache/com.beust/jcommander/ivy-1.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/beust/jcommander/1.12/jcommander-1.12.pom"/>
 				<caller organisation="org.testng" name="testng" conf="default, compile, runtime, master" rev="1.12" rev-constraint-default="1.12" rev-constraint-dynamic="1.12" callerrev="6.5.1"/>
@@ -58,7 +46,7 @@
 			</revision>
 		</module>
 		<module organisation="org.beanshell" name="bsh">
-			<revision name="2.0b4" status="release" pubdate="20060525201005" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+			<revision name="2.0b4" status="release" pubdate="20060525201005" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
 				<license name="GNU LESSER GENERAL PUBLIC LICENSE" url="http://www.gnu.org/licenses/lgpl.txt"/>
 				<metadata-artifact status="no" details="" size="2431" time="0" location="/Users/mishrapaw/.ivy2/cache/org.beanshell/bsh/ivy-2.0b4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/beanshell/bsh/2.0b4/bsh-2.0b4.pom"/>
 				<caller organisation="org.testng" name="testng" conf="default, compile, runtime, master" rev="2.0b4" rev-constraint-default="2.0b4" rev-constraint-dynamic="2.0b4" callerrev="6.5.1"/>
@@ -70,7 +58,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scalatest" name="scalatest_2.12">
-			<revision name="3.0.4" status="release" pubdate="20170817103359" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+			<revision name="3.0.4" status="release" pubdate="20170817103359" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
 				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="4901" time="0" location="/Users/mishrapaw/.ivy2/cache/org.scalatest/scalatest_2.12/ivy-3.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.4/scalatest_2.12-3.0.4.pom"/>
 				<caller organisation="Scalatron" name="scalatron_2.12" conf="test, compile, runtime" rev="3.0.4" rev-constraint-default="3.0.4" rev-constraint-dynamic="3.0.4" callerrev="1.1.0.2"/>
@@ -82,7 +70,7 @@
 			</revision>
 		</module>
 		<module organisation="junit" name="junit">
-			<revision name="4.10" status="release" pubdate="20110929141223" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+			<revision name="4.10" status="release" pubdate="20110929141223" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
 				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
 				<metadata-artifact status="no" details="" size="2897" time="0" location="/Users/mishrapaw/.ivy2/cache/junit/junit/ivy-4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom"/>
 				<caller organisation="org.testng" name="testng" conf="default, compile, runtime, master" rev="4.10" rev-constraint-default="4.10" rev-constraint-dynamic="4.10" callerrev="6.5.1"/>
@@ -94,7 +82,7 @@
 			</revision>
 		</module>
 		<module organisation="org.hamcrest" name="hamcrest-core">
-			<revision name="1.1" status="release" pubdate="20070718141143" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+			<revision name="1.1" status="release" pubdate="20070718141143" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
 				<metadata-artifact status="no" details="" size="4252" time="0" location="/Users/mishrapaw/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom"/>
 				<caller organisation="junit" name="junit" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="4.10"/>
 				<artifacts>
@@ -105,25 +93,13 @@
 			</revision>
 		</module>
 		<module organisation="org.scalactic" name="scalactic_2.12">
-			<revision name="3.0.4" status="release" pubdate="20170817103048" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+			<revision name="3.0.4" status="release" pubdate="20170817103048" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
 				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2967" time="0" location="/Users/mishrapaw/.ivy2/cache/org.scalactic/scalactic_2.12/ivy-3.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4.pom"/>
 				<caller organisation="org.scalatest" name="scalatest_2.12" conf="default, compile, runtime, master" rev="3.0.4" rev-constraint-default="3.0.4" rev-constraint-dynamic="3.0.4" callerrev="3.0.4"/>
 				<artifacts>
 					<artifact name="scalactic_2.12" type="bundle" ext="jar" status="no" details="" size="705617" time="0" location="/Users/mishrapaw/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.4/scalactic_2.12-3.0.4.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.specs2" name="specs2-scalaz-core_2.9.1">
-			<revision name="6.0.1" status="release" pubdate="20110831080958" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="20">
-				<metadata-artifact status="no" details="" size="2524" time="0" location="/Users/mishrapaw/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.1/ivy-6.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.1/6.0.1/specs2-scalaz-core_2.9.1-6.0.1.pom"/>
-				<caller organisation="org.specs2" name="specs2_2.9.1" conf="default, compile, runtime, master" rev="6.0.1" rev-constraint-default="6.0.1" rev-constraint-dynamic="6.0.1" callerrev="1.9"/>
-				<caller organisation="Scalatron" name="scalatron_2.12" conf="test, compile, runtime" rev="6.0.1" rev-constraint-default="6.0.1" rev-constraint-dynamic="6.0.1" callerrev="1.1.0.2"/>
-				<artifacts>
-					<artifact name="specs2-scalaz-core_2.9.1" type="jar" ext="jar" status="no" details="" size="4639647" time="0" location="/Users/mishrapaw/.ivy2/cache/org.specs2/specs2-scalaz-core_2.9.1/jars/specs2-scalaz-core_2.9.1-6.0.1.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/specs2/specs2-scalaz-core_2.9.1/6.0.1/specs2-scalaz-core_2.9.1-6.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -272,7 +248,7 @@
 			</revision>
 		</module>
 		<module organisation="Scalatron" name="botwar_2.12">
-			<revision name="1.1.0.2" status="integration" pubdate="20171227002008" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="4">
+			<revision name="1.1.0.2" status="integration" pubdate="20171227103743" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="4">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="Scalatron" name="scalatron_2.12" conf="test, compile, runtime" rev="1.1.0.2" rev-constraint-default="1.1.0.2" rev-constraint-dynamic="1.1.0.2" callerrev="1.1.0.2"/>
 				<artifacts>
@@ -280,7 +256,7 @@
 			</revision>
 		</module>
 		<module organisation="Scalatron" name="scalatroncore_2.12">
-			<revision name="1.1.0.2" status="integration" pubdate="20171227002007" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="5">
+			<revision name="1.1.0.2" status="integration" pubdate="20171227103741" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="5">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="Scalatron" name="botwar_2.12" conf="compile" rev="1.1.0.2" rev-constraint-default="1.1.0.2" rev-constraint-dynamic="1.1.0.2" callerrev="1.1.0.2"/>
 				<artifacts>
@@ -385,7 +361,6 @@
 				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12" conf="default, compile, runtime, master" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="1.0.6"/>
 				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="compile, runtime" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="1.0.6"/>
 				<caller organisation="Scalatron" name="scalatroncore_2.12" conf="compile" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="1.1.0.2"/>
-				<caller organisation="org.specs2" name="specs2-scalaz-core_2.9.1" conf="default, compile, runtime, master" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="6.0.1"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5278660" time="0" location="/Users/mishrapaw/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.jar"/>

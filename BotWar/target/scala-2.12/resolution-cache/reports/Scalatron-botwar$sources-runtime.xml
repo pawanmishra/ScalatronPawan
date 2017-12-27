@@ -7,10 +7,10 @@
 		revision="1.1.0.2"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20171227002838"/>
+		date="20171227145702"/>
 	<dependencies>
 		<module organisation="Scalatron" name="scalatroncore_2.12">
-			<revision name="1.1.0.2" status="integration" pubdate="20171227002829" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
+			<revision name="1.1.0.2" status="integration" pubdate="20171227145524" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="Scalatron" name="botwar$sources" conf="compile, runtime" rev="1.1.0.2" rev-constraint-default="1.1.0.2" rev-constraint-dynamic="1.1.0.2" callerrev="1.1.0.2"/>
 				<artifacts>

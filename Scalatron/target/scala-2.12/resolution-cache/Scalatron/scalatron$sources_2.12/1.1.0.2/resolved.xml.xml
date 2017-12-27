@@ -4,7 +4,7 @@
 		module="scalatron$sources_2.12"
 		revision="1.1.0.2"
 		status="integration"
-		publication="20171227002830"
+		publication="20171227145710"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

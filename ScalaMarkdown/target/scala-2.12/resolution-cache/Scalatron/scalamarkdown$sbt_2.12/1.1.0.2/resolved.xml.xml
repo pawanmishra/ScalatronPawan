@@ -4,7 +4,7 @@
 		module="scalamarkdown$sbt_2.12"
 		revision="1.1.0.2"
 		status="integration"
-		publication="20171227002837"
+		publication="20171227145628"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

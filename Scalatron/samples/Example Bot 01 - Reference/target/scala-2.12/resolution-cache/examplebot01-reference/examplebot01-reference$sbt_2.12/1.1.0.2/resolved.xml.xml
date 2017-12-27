@@ -4,7 +4,7 @@
 		module="examplebot01-reference$sbt_2.12"
 		revision="1.1.0.2"
 		status="integration"
-		publication="20171227002836"
+		publication="20171227150047"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

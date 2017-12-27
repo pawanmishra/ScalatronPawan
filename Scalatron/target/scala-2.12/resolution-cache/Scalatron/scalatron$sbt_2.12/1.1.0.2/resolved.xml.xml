@@ -4,7 +4,7 @@
 		module="scalatron$sbt_2.12"
 		revision="1.1.0.2"
 		status="integration"
-		publication="20171227002829"
+		publication="20171227145704"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

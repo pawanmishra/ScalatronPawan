@@ -4,7 +4,7 @@
 		module="examplebot02-tagteam$sources"
 		revision="1.1.0.2"
 		status="integration"
-		publication="20171227002838"
+		publication="20171227145703"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

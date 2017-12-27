@@ -282,12 +282,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies examplebot02-tagteam#examplebot02-tagteam$sources;1.1.0.2->org.scala-lang#scala-compiler;2.12.4 [scala-tool->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 16ms :: artifacts dl 1ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 11ms :: artifacts dl 0ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for examplebot02-tagteam#examplebot02-tagteam$sources;1.1.0.2 compile produced in /Users/mishrapaw/ScalatronPawan/Scalatron/samples/Example Bot 02 - TagTeam/target/scala-2.12/resolution-cache/reports/examplebot02-tagteam-examplebot02-tagteam$sources-compile.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for examplebot02-tagteam#examplebot02-tagteam$sources;1.1.0.2 runtime produced in /Users/mishrapaw/ScalatronPawan/Scalatron/samples/Example Bot 02 - TagTeam/target/scala-2.12/resolution-cache/reports/examplebot02-tagteam-examplebot02-tagteam$sources-runtime.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for examplebot02-tagteam#examplebot02-tagteam$sources;1.1.0.2 test produced in /Users/mishrapaw/ScalatronPawan/Scalatron/samples/Example Bot 02 - TagTeam/target/scala-2.12/resolution-cache/reports/examplebot02-tagteam-examplebot02-tagteam$sources-test.xml[0m
@@ -299,4 +299,4 @@
 [0m[[0m[0mdebug[0m] [0m[0m	report for examplebot02-tagteam#examplebot02-tagteam$sources;1.1.0.2 plugin produced in /Users/mishrapaw/ScalatronPawan/Scalatron/samples/Example Bot 02 - TagTeam/target/scala-2.12/resolution-cache/reports/examplebot02-tagteam-examplebot02-tagteam$sources-plugin.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for examplebot02-tagteam#examplebot02-tagteam$sources;1.1.0.2 pom produced in /Users/mishrapaw/ScalatronPawan/Scalatron/samples/Example Bot 02 - TagTeam/target/scala-2.12/resolution-cache/reports/examplebot02-tagteam-examplebot02-tagteam$sources-pom.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for examplebot02-tagteam#examplebot02-tagteam$sources;1.1.0.2 scala-tool produced in /Users/mishrapaw/ScalatronPawan/Scalatron/samples/Example Bot 02 - TagTeam/target/scala-2.12/resolution-cache/reports/examplebot02-tagteam-examplebot02-tagteam$sources-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (16ms resolve - 1ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (11ms resolve - 0ms download)[0m
