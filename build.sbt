@@ -9,7 +9,7 @@ def standardSettings = src ++ Seq (
     organization := "Scalatron",
     //name         := "Scalatron",
     version in Global := "1.1.0.2",
-    scalaVersion := "2.12",
+    scalaVersion := "2.12.2",
     assemblyMergeStrategy in assembly := {
       case "plugin.properties" => MergeStrategy.first
       case "about.html" => MergeStrategy.first
@@ -131,7 +131,7 @@ lazy val tagTeamBot = samples("Example Bot 02 - TagTeam")
 
 lazy val zipTask: Def.Initialize[Task[Unit]] = Def.task {
   //val scalatronVersion = version
-  //val version = scalaVersion
+  val scalaVersionLocal = "2.12"
   println ("Beginning distribution generation...")
   val distDir = file("dist")
 
@@ -155,7 +155,7 @@ lazy val zipTask: Def.Initialize[Task[Unit]] = Def.task {
   }
 
   val distSamples = distDir / "samples"
-  def sampleJar(sample: Project) = sample.base / ("target/scala-%s/ScalatronBot.jar" format scalaVersion.value)
+  def sampleJar(sample: Project) = sample.base / ("target/scala-%s/ScalatronBot.jar" format scalaVersionLocal)
   for (sample <- samples.values) {
     if (sampleJar(sample).exists) {
       println("Copying " + sample.base)
@@ -182,7 +182,7 @@ lazy val zipTask: Def.Initialize[Task[Unit]] = Def.task {
 
 
   for (jar <- List("Scalatron", "ScalatronCLI", "ScalatronCore", "BotWar")) {
-    IO.copyFile(file(jar) / "target" / s"scala-${scalaVersion.value}" / (jar + ".jar"), distDir / "bin" / (jar + ".jar"))
+    IO.copyFile(file(jar) / "target" / s"scala-${scalaVersionLocal}" / (jar + ".jar"), distDir / "bin" / (jar + ".jar"))
   }
 
   // This is ridiculous, there has to be be an easier way to zip up a directory

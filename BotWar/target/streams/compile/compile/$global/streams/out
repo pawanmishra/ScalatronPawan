@@ -1,5 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/mishrapaw/ScalatronPawan/BotWar/src/scalatron/botwar/renderer/LeaderboardPanelRenderer.scala:21:44: Reference to uninitialized value panelInnerMargin[0m
-[0m[[0m[33mwarn[0m] [0m[0m    val panelHeight = 4 * LineHeight + 2 * panelInnerMargin + 5[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mthere were two feature warnings; re-run with -feature for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
