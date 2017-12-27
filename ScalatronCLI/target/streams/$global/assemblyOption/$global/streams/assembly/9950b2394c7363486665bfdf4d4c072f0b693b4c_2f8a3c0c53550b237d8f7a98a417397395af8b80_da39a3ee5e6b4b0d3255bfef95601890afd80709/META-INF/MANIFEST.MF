@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Implementation-Title: HttpComponents Apache HttpClient
+Implementation-Version: 4.5.4
+Built-By: oleg
+Specification-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Specification-Title: HttpComponents Apache HttpClient
+url: http://hc.apache.org/httpcomponents-client
+Implementation-Vendor: The Apache Software Foundation
+X-Compile-Target-JDK: 1.6
+Implementation-Build: ${scmBranch}@r${buildNumber}; 2017-11-27 09:41:0
+ 5+0000
+X-Compile-Source-JDK: 1.6
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_121
+Implementation-URL: http://hc.apache.org/httpcomponents-client
+Specification-Version: 4.5.4
+

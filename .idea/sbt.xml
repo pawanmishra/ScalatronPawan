@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/BotWar" />
+            <option value="$PROJECT_DIR$/BotWar/project" />
+            <option value="$PROJECT_DIR$/ScalaMarkdown" />
+            <option value="$PROJECT_DIR$/ScalaMarkdown/project" />
+            <option value="$PROJECT_DIR$/Scalatron" />
+            <option value="$PROJECT_DIR$/Scalatron/project" />
+            <option value="$PROJECT_DIR$/Scalatron/samples/Example Bot 01 - Reference" />
+            <option value="$PROJECT_DIR$/Scalatron/samples/Example Bot 01 - Reference/project" />
+            <option value="$PROJECT_DIR$/Scalatron/samples/Example Bot 02 - TagTeam" />
+            <option value="$PROJECT_DIR$/Scalatron/samples/Example Bot 02 - TagTeam/project" />
+            <option value="$PROJECT_DIR$/ScalatronCLI" />
+            <option value="$PROJECT_DIR$/ScalatronCLI/project" />
+            <option value="$PROJECT_DIR$/ScalatronCore" />
+            <option value="$PROJECT_DIR$/ScalatronCore/project" />
+            <option value="$PROJECT_DIR$/project" />
+          </set>
+        </option>
+        <option name="resolveSbtClassifiers" value="true" />
+        <option name="sbtVersion" value="1.0.4" />
+        <option name="useAutoImport" value="true" />
+        <option name="useOurOwnAutoImport" value="true" />
+        <option name="useSbtShell" value="true" />
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>

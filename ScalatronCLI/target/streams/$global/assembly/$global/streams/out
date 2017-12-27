@@ -1,0 +1,21 @@
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-logging-1.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-codec-1.10.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-parser-combinators_2.12-1.0.6.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: httpclient-4.5.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: httpcore-4.4.7.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-library-2.12.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCalculate mappings...[0m
+[0m[[0m[0minfo[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0m[0minfo[0m] [0m[0mMerging files...[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/DEPENDENCIES' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-codec/commons-codec/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-codec/commons-codec/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-logging/commons-logging/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-logging/commons-logging/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.httpcomponents/httpclient/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.httpcomponents/httpclient/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.httpcomponents/httpcore/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.httpcomponents/httpcore/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mStrategy 'discard' was applied to 10 files[0m
+[0m[[0m[0minfo[0m] [0m[0mAssembly up to date: /Users/mishrapaw/ScalatronPawan/ScalatronCLI/target/scala-2.12/ScalatronCLI.jar[0m

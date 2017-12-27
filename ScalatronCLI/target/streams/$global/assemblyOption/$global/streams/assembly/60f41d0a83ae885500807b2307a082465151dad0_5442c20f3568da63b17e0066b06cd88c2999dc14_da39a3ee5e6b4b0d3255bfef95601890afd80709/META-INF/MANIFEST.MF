@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Implementation-Title: HttpComponents Apache HttpCore
+Implementation-Version: 4.4.7
+Archiver-Version: Plexus Archiver
+Built-By: oleg
+Specification-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Specification-Title: HttpComponents Apache HttpCore
+url: http://hc.apache.org/httpcomponents-core-ga
+Implementation-Vendor: The Apache Software Foundation
+X-Compile-Target-JDK: 1.6
+Implementation-Build: 4.4.x@rae2d0552f5ac7ee9553afa1902cfdba712eeb363;
+  2017-09-10 10:21:09+0000
+X-Compile-Source-JDK: 1.6
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_121
+Implementation-URL: http://hc.apache.org/httpcomponents-core-ga
+Specification-Version: 4.4.7
+
