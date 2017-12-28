@@ -1,6 +1,7 @@
 
 import sbt._
 import Keys._
+import sys.process._
 import sbtassembly.AssemblyPlugin.autoImport._
 
 scalacOptions += "-Ylog-classpath"
@@ -167,9 +168,12 @@ lazy val zipTask: Def.Initialize[Task[Unit]] = Def.task {
   println ("Copying Reference bot to /bots directory...")
   IO.copyFile(sampleJar(referenceBot), distDir / "bots" / "Reference" / "ScalatronBot.jar")
 
+  for (jar <- List("Scalatron", "ScalatronCLI", "ScalatronCore", "BotWar", "ScalaMarkdown")) {
+    IO.copyFile(file(jar) / "target" / s"scala-${scalaVersionLocal}" / (jar + ".jar"), distDir / "bin" / (jar + ".jar"))
+  }
 
   def markdown(docDir: File, htmlDir: File) = {
-    Seq("java", "-Xmx1G", "-jar", "ScalaMarkdown/target/ScalaMarkdown.jar", docDir.getPath, htmlDir.getPath) //!
+    Seq("java", "-Xmx1G", "-jar", s"${distDir.getAbsolutePath}/bin/ScalaMarkdown.jar", docDir.getPath, htmlDir.getPath) !
   }
 
   // generate HTML from Markdown, for /doc and /devdoc
